@@ -11,3 +11,5 @@ function logMessage(level: LogLevel, message: string): void {
 }
 
 let orderStatus: orderStatus = "pending";
+
+logMessage(LogLevel.Info, "Order status: " + orderStatus);

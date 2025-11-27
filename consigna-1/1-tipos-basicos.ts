@@ -13,3 +13,6 @@ let myProduct: Product = {
 };
 
 productId = 123;
+
+console.log("Product:", myProduct);
+console.log("Product ID:", productId);

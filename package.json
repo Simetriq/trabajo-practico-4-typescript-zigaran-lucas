@@ -5,8 +5,11 @@
     "typescript": "^5.9.3"
   },
   "scripts": {
-"dev": "tsx watch src/app.ts",
-"build": "tsc",
-"start": "node dist/app.js"
-}
+    "dev": "tsx watch src/app.ts",
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "test": "tsx consigna-2/2-funciones-tipado.ts",
+    "test1": "tsx consigna-1/1-tipos-basicos.ts",
+    "test3": "tsx consigna-3/3-tipos-literales-enums.ts"
+  }
 }
